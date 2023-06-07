@@ -9,7 +9,9 @@ import (
 //Single Resposibility Principle - S
 //Open-Close Principle - O
 //SRP is about separation of calculating area() and output areaToText()
+//A module should have one, and only one reason to change
 //OCP is about using of any type for one function(not choosing between limited types), that implements the same methods
+//A software artifact should be open for extencion but closed for modifications
 
 type calculateSquareOfArea interface {
 	area() float32
